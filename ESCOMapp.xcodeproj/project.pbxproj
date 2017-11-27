@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CDB089A01FC5000A00560ECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0899F1FC5000A00560ECD /* AppDelegate.swift */; };
-		CDB089A21FC5000A00560ECD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB089A11FC5000A00560ECD /* ViewController.swift */; };
+		CDB089A21FC5000A00560ECD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB089A11FC5000A00560ECD /* ProfileViewController.swift */; };
 		CDB089A51FC5000A00560ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB089A31FC5000A00560ECD /* Main.storyboard */; };
 		CDB089A71FC5000A00560ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB089A61FC5000A00560ECD /* Assets.xcassets */; };
 		CDB089AA1FC5000A00560ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB089A81FC5000A00560ECD /* LaunchScreen.storyboard */; };
+		CDB089D71FC53D5E00560ECD /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB089D61FC53D5E00560ECD /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDB0899C1FC5000A00560ECD /* ESCOMapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCOMapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB0899F1FC5000A00560ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDB089A11FC5000A00560ECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDB089A11FC5000A00560ECD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ESCOMapp/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
 		CDB089A41FC5000A00560ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDB089A61FC5000A00560ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB089A91FC5000A00560ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB089AB1FC5000A00560ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB089D61FC53D5E00560ECD /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		CDB0899E1FC5000A00560ECD /* ESCOMapp */ = {
 			isa = PBXGroup;
 			children = (
+				CDB089D11FC52F5400560ECD /* Profile */,
 				CDB0899F1FC5000A00560ECD /* AppDelegate.swift */,
-				CDB089A11FC5000A00560ECD /* ViewController.swift */,
 				CDB089A31FC5000A00560ECD /* Main.storyboard */,
 				CDB089A61FC5000A00560ECD /* Assets.xcassets */,
 				CDB089A81FC5000A00560ECD /* LaunchScreen.storyboard */,
 				CDB089AB1FC5000A00560ECD /* Info.plist */,
 			);
 			path = ESCOMapp;
+			sourceTree = "<group>";
+		};
+		CDB089D11FC52F5400560ECD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CDB089A11FC5000A00560ECD /* ProfileViewController.swift */,
+				CDB089D61FC53D5E00560ECD /* EditProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB089A21FC5000A00560ECD /* ViewController.swift in Sources */,
+				CDB089A21FC5000A00560ECD /* ProfileViewController.swift in Sources */,
 				CDB089A01FC5000A00560ECD /* AppDelegate.swift in Sources */,
+				CDB089D71FC53D5E00560ECD /* EditProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
