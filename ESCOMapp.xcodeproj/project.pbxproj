@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD2B6CEB1FDE468F00EF209E /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B6CEA1FDE468F00EF209E /* Mensajes.swift */; };
+		CD2B6CEE1FDE48DD00EF209E /* visita.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6CED1FDE48DD00EF209E /* visita.storyboard */; };
+		CD2B6CF01FDE48EF00EF209E /* profesor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6CEF1FDE48EF00EF209E /* profesor.storyboard */; };
+		CD2B6CF21FDE490400EF209E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6CF11FDE490400EF209E /* Main.storyboard */; };
+		CDA1DDB31FCBA36800573AD4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1DDB21FCBA36800573AD4 /* RegisterViewController.swift */; };
+		CDA1DDB51FCBADFB00573AD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1DDB41FCBADFB00573AD4 /* LoginViewController.swift */; };
+		CDA1DDB91FCBBC8900573AD4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1DDB81FCBBC8900573AD4 /* ProfileViewController.swift */; };
 		CDB089A01FC5000A00560ECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0899F1FC5000A00560ECD /* AppDelegate.swift */; };
-		CDB089A21FC5000A00560ECD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB089A11FC5000A00560ECD /* ProfileViewController.swift */; };
-		CDB089A51FC5000A00560ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB089A31FC5000A00560ECD /* Main.storyboard */; };
+		CDB089A51FC5000A00560ECD /* alumno.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB089A31FC5000A00560ECD /* alumno.storyboard */; };
 		CDB089A71FC5000A00560ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB089A61FC5000A00560ECD /* Assets.xcassets */; };
 		CDB089AA1FC5000A00560ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB089A81FC5000A00560ECD /* LaunchScreen.storyboard */; };
 		CDB089D71FC53D5E00560ECD /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB089D61FC53D5E00560ECD /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD2B6CEA1FDE468F00EF209E /* Mensajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensajes.swift; sourceTree = "<group>"; };
+		CD2B6CED1FDE48DD00EF209E /* visita.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = visita.storyboard; sourceTree = "<group>"; };
+		CD2B6CEF1FDE48EF00EF209E /* profesor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = profesor.storyboard; sourceTree = "<group>"; };
+		CD2B6CF11FDE490400EF209E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CDA1DDB21FCBA36800573AD4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CDA1DDB41FCBADFB00573AD4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDA1DDB81FCBBC8900573AD4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CDB0899C1FC5000A00560ECD /* ESCOMapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCOMapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB0899F1FC5000A00560ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDB089A11FC5000A00560ECD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ESCOMapp/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
-		CDB089A41FC5000A00560ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB089A41FC5000A00560ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/alumno.storyboard; sourceTree = "<group>"; };
 		CDB089A61FC5000A00560ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB089A91FC5000A00560ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB089AB1FC5000A00560ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +49,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD2B6CE71FDE466B00EF209E /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B6CEA1FDE468F00EF209E /* Mensajes.swift */,
+			);
+			path = Clases;
+			sourceTree = "<group>";
+		};
+		CD2B6CEC1FDE486600EF209E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CDB089A31FC5000A00560ECD /* alumno.storyboard */,
+				CD2B6CED1FDE48DD00EF209E /* visita.storyboard */,
+				CD2B6CEF1FDE48EF00EF209E /* profesor.storyboard */,
+				CD2B6CF11FDE490400EF209E /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CDA1DDB11FCB9CC000573AD4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1DDB21FCBA36800573AD4 /* RegisterViewController.swift */,
+				CDA1DDB41FCBADFB00573AD4 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		CDB089931FC5000A00560ECD = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +96,11 @@
 		CDB0899E1FC5000A00560ECD /* ESCOMapp */ = {
 			isa = PBXGroup;
 			children = (
+				CD2B6CE71FDE466B00EF209E /* Clases */,
+				CDA1DDB11FCB9CC000573AD4 /* Login */,
 				CDB089D11FC52F5400560ECD /* Profile */,
+				CD2B6CEC1FDE486600EF209E /* Storyboard */,
 				CDB0899F1FC5000A00560ECD /* AppDelegate.swift */,
-				CDB089A31FC5000A00560ECD /* Main.storyboard */,
 				CDB089A61FC5000A00560ECD /* Assets.xcassets */,
 				CDB089A81FC5000A00560ECD /* LaunchScreen.storyboard */,
 				CDB089AB1FC5000A00560ECD /* Info.plist */,
@@ -69,7 +111,7 @@
 		CDB089D11FC52F5400560ECD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				CDB089A11FC5000A00560ECD /* ProfileViewController.swift */,
+				CDA1DDB81FCBBC8900573AD4 /* ProfileViewController.swift */,
 				CDB089D61FC53D5E00560ECD /* EditProfileViewController.swift */,
 			);
 			path = Profile;
@@ -134,9 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2B6CEE1FDE48DD00EF209E /* visita.storyboard in Resources */,
+				CD2B6CF01FDE48EF00EF209E /* profesor.storyboard in Resources */,
 				CDB089AA1FC5000A00560ECD /* LaunchScreen.storyboard in Resources */,
 				CDB089A71FC5000A00560ECD /* Assets.xcassets in Resources */,
-				CDB089A51FC5000A00560ECD /* Main.storyboard in Resources */,
+				CDB089A51FC5000A00560ECD /* alumno.storyboard in Resources */,
+				CD2B6CF21FDE490400EF209E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,21 +192,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB089A21FC5000A00560ECD /* ProfileViewController.swift in Sources */,
+				CDA1DDB91FCBBC8900573AD4 /* ProfileViewController.swift in Sources */,
 				CDB089A01FC5000A00560ECD /* AppDelegate.swift in Sources */,
 				CDB089D71FC53D5E00560ECD /* EditProfileViewController.swift in Sources */,
+				CD2B6CEB1FDE468F00EF209E /* Mensajes.swift in Sources */,
+				CDA1DDB51FCBADFB00573AD4 /* LoginViewController.swift in Sources */,
+				CDA1DDB31FCBA36800573AD4 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDB089A31FC5000A00560ECD /* Main.storyboard */ = {
+		CDB089A31FC5000A00560ECD /* alumno.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CDB089A41FC5000A00560ECD /* Base */,
 			);
-			name = Main.storyboard;
+			name = alumno.storyboard;
 			sourceTree = "<group>";
 		};
 		CDB089A81FC5000A00560ECD /* LaunchScreen.storyboard */ = {

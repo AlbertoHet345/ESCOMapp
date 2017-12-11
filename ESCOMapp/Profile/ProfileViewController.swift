@@ -1,5 +1,5 @@
 //
-//  ProfileViewController.swift
+//  ViewController.swift
 //  ESCOMapp
 //
 //  Created by Alberto Garcia on 21/11/17.
@@ -12,24 +12,27 @@ class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        
+        let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn")
+        if(!isUserLoggedIn) {
+            self.performSegue(withIdentifier: "loginView", sender: self)
+        }
     }
-    */
 
+    @IBAction func didTapLogOut(_ sender: Any) {
+        UserDefaults.standard.set("false", forKey: "isUserLoggedIn")
+        UserDefaults.standard.synchronize()
+        
+        self.performSegue(withIdentifier: "loginView", sender: self)
+    }
 }
+
