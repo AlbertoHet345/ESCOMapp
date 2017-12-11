@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CD2B6CEB1FDE468F00EF209E /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B6CEA1FDE468F00EF209E /* Mensajes.swift */; };
-		CD2B6CEE1FDE48DD00EF209E /* visita.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6CED1FDE48DD00EF209E /* visita.storyboard */; };
 		CD2B6CF01FDE48EF00EF209E /* profesor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6CEF1FDE48EF00EF209E /* profesor.storyboard */; };
 		CD2B6CF21FDE490400EF209E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6CF11FDE490400EF209E /* Main.storyboard */; };
+		CD2B6CF51FDE562C00EF209E /* visita.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6CF41FDE562C00EF209E /* visita.storyboard */; };
+		CD2B6D031FDE614200EF209E /* VisualizarInformacion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6D021FDE614200EF209E /* VisualizarInformacion.storyboard */; };
+		CD2B6D051FDE625A00EF209E /* Profesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B6D041FDE625A00EF209E /* Profesor.swift */; };
+		CD2B6D071FDE664F00EF209E /* VisualizarInformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B6D061FDE664F00EF209E /* VisualizarInformacionViewController.swift */; };
+		CD2B6D0E1FDE747100EF209E /* BuscarProfesorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B6D0D1FDE747100EF209E /* BuscarProfesorViewController.swift */; };
+		CD2B6D101FDE748000EF209E /* BuscarProfesor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B6D0F1FDE748000EF209E /* BuscarProfesor.storyboard */; };
 		CDA1DDB31FCBA36800573AD4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1DDB21FCBA36800573AD4 /* RegisterViewController.swift */; };
 		CDA1DDB51FCBADFB00573AD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1DDB41FCBADFB00573AD4 /* LoginViewController.swift */; };
 		CDA1DDB91FCBBC8900573AD4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1DDB81FCBBC8900573AD4 /* ProfileViewController.swift */; };
@@ -23,9 +28,14 @@
 
 /* Begin PBXFileReference section */
 		CD2B6CEA1FDE468F00EF209E /* Mensajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensajes.swift; sourceTree = "<group>"; };
-		CD2B6CED1FDE48DD00EF209E /* visita.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = visita.storyboard; sourceTree = "<group>"; };
 		CD2B6CEF1FDE48EF00EF209E /* profesor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = profesor.storyboard; sourceTree = "<group>"; };
 		CD2B6CF11FDE490400EF209E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CD2B6CF41FDE562C00EF209E /* visita.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = visita.storyboard; sourceTree = "<group>"; };
+		CD2B6D021FDE614200EF209E /* VisualizarInformacion.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VisualizarInformacion.storyboard; sourceTree = "<group>"; };
+		CD2B6D041FDE625A00EF209E /* Profesor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profesor.swift; sourceTree = "<group>"; };
+		CD2B6D061FDE664F00EF209E /* VisualizarInformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizarInformacionViewController.swift; sourceTree = "<group>"; };
+		CD2B6D0D1FDE747100EF209E /* BuscarProfesorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarProfesorViewController.swift; sourceTree = "<group>"; };
+		CD2B6D0F1FDE748000EF209E /* BuscarProfesor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuscarProfesor.storyboard; sourceTree = "<group>"; };
 		CDA1DDB21FCBA36800573AD4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CDA1DDB41FCBADFB00573AD4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CDA1DDB81FCBBC8900573AD4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -53,19 +63,35 @@
 			isa = PBXGroup;
 			children = (
 				CD2B6CEA1FDE468F00EF209E /* Mensajes.swift */,
+				CD2B6D041FDE625A00EF209E /* Profesor.swift */,
 			);
 			path = Clases;
 			sourceTree = "<group>";
 		};
-		CD2B6CEC1FDE486600EF209E /* Storyboard */ = {
+		CD2B6CF31FDE552300EF209E /* Visita */ = {
 			isa = PBXGroup;
 			children = (
-				CDB089A31FC5000A00560ECD /* alumno.storyboard */,
-				CD2B6CED1FDE48DD00EF209E /* visita.storyboard */,
-				CD2B6CEF1FDE48EF00EF209E /* profesor.storyboard */,
-				CD2B6CF11FDE490400EF209E /* Main.storyboard */,
+				CD2B6CF41FDE562C00EF209E /* visita.storyboard */,
 			);
-			path = Storyboard;
+			path = Visita;
+			sourceTree = "<group>";
+		};
+		CD2B6D011FDE611C00EF209E /* CUCP1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B6D021FDE614200EF209E /* VisualizarInformacion.storyboard */,
+				CD2B6D061FDE664F00EF209E /* VisualizarInformacionViewController.swift */,
+			);
+			path = CUCP1.1;
+			sourceTree = "<group>";
+		};
+		CD2B6D0C1FDE743800EF209E /* CUCP1 */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B6D0D1FDE747100EF209E /* BuscarProfesorViewController.swift */,
+				CD2B6D0F1FDE748000EF209E /* BuscarProfesor.storyboard */,
+			);
+			path = CUCP1;
 			sourceTree = "<group>";
 		};
 		CDA1DDB11FCB9CC000573AD4 /* Login */ = {
@@ -96,11 +122,16 @@
 		CDB0899E1FC5000A00560ECD /* ESCOMapp */ = {
 			isa = PBXGroup;
 			children = (
+				CD2B6D0C1FDE743800EF209E /* CUCP1 */,
+				CD2B6D011FDE611C00EF209E /* CUCP1.1 */,
+				CD2B6CF31FDE552300EF209E /* Visita */,
 				CD2B6CE71FDE466B00EF209E /* Clases */,
 				CDA1DDB11FCB9CC000573AD4 /* Login */,
 				CDB089D11FC52F5400560ECD /* Profile */,
-				CD2B6CEC1FDE486600EF209E /* Storyboard */,
 				CDB0899F1FC5000A00560ECD /* AppDelegate.swift */,
+				CD2B6CEF1FDE48EF00EF209E /* profesor.storyboard */,
+				CD2B6CF11FDE490400EF209E /* Main.storyboard */,
+				CDB089A31FC5000A00560ECD /* alumno.storyboard */,
 				CDB089A61FC5000A00560ECD /* Assets.xcassets */,
 				CDB089A81FC5000A00560ECD /* LaunchScreen.storyboard */,
 				CDB089AB1FC5000A00560ECD /* Info.plist */,
@@ -176,11 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2B6CEE1FDE48DD00EF209E /* visita.storyboard in Resources */,
+				CD2B6D101FDE748000EF209E /* BuscarProfesor.storyboard in Resources */,
 				CD2B6CF01FDE48EF00EF209E /* profesor.storyboard in Resources */,
 				CDB089AA1FC5000A00560ECD /* LaunchScreen.storyboard in Resources */,
 				CDB089A71FC5000A00560ECD /* Assets.xcassets in Resources */,
+				CD2B6D031FDE614200EF209E /* VisualizarInformacion.storyboard in Resources */,
 				CDB089A51FC5000A00560ECD /* alumno.storyboard in Resources */,
+				CD2B6CF51FDE562C00EF209E /* visita.storyboard in Resources */,
 				CD2B6CF21FDE490400EF209E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,10 +226,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA1DDB91FCBBC8900573AD4 /* ProfileViewController.swift in Sources */,
+				CD2B6D051FDE625A00EF209E /* Profesor.swift in Sources */,
 				CDB089A01FC5000A00560ECD /* AppDelegate.swift in Sources */,
 				CDB089D71FC53D5E00560ECD /* EditProfileViewController.swift in Sources */,
+				CD2B6D071FDE664F00EF209E /* VisualizarInformacionViewController.swift in Sources */,
 				CD2B6CEB1FDE468F00EF209E /* Mensajes.swift in Sources */,
 				CDA1DDB51FCBADFB00573AD4 /* LoginViewController.swift in Sources */,
+				CD2B6D0E1FDE747100EF209E /* BuscarProfesorViewController.swift in Sources */,
 				CDA1DDB31FCBA36800573AD4 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
